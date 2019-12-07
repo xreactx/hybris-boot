@@ -2,7 +2,7 @@
 
 import sys
 
-device = sys.argv[1]
+device = "OnePlus6"
 
 """Assert that the device identifier is the given string."""
 cmd = ('assert(' +
