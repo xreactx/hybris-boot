@@ -5,7 +5,7 @@ FS_DST="/data/.stowaways/sailfishos"
 
 rm -rf $FS_DST
 mkdir -p $FS_DST
-tar --numeric-owner -xvjf $FS_ARC -C $FS_DST
+busybox-armv8l tar --numeric-owner -xvjf $FS_ARC -C $FS_DST
 EXIT=$?
 
 rm $FS_ARC
