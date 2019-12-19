@@ -12,8 +12,6 @@ ui_print("    /data -> %DATA_PART%");
 ui_print("========================================");
 ui_print("");
 
-%ASSERT_DEVICE%
-
 ui_print("Device check succeeded, mounting filesystems ...");
 mount("ext4", "EMMC", "%DATA_PART%", "/data");
 
